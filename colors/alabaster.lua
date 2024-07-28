@@ -232,7 +232,7 @@ if vim.o.background == "dark" then
         TSStringRegex = { bg = "#1d292b", fg = const_fg },
         TSStringEscape = { bg = "#1d292b", fg = const_fg },
         TSSymbol = {},
-        TSType = { fg = ansi.white },
+        TSType = { fg = ansi.blue },
         TSTypeBuiltin = { fg = ansi.white },
         TSVariable = { fg = ansi.white },
         TSVariableBuiltin = { fg = ansi.white },
