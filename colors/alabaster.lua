@@ -265,7 +265,7 @@ if vim.o.background == "dark" then
         ["@string.escape"] = { bg = "#1d292b", fg = const_fg },
         ["@symbol"] = {},
         ["@type"] = { fg = ansi.white },
-        ["@type.builtin"] = { fg = ansi.blue },
+        ["@type.builtin"] = { fg = ansi.white },
         ["@variable"] = { fg = ansi.white },
         ["@variable.builtin"] = { fg = ansi.white },
         ["@tag"] = { fg = ansi.white },
