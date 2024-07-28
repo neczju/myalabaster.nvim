@@ -140,8 +140,7 @@ if vim.o.background == "dark" then
 
         --- SYNTAX II: TS groups have their own definition, the below are defined to have somewhat working hl w/o treesitter
         Identifier = { fg = ansi.white },
-        -- Function = { fg = def_fg },
-        Function = { fg = ansi.blue },
+        Function = { fg = def_fg },
         Statement = { fg = ansi.white },
         Conditional = { fg = ansi.white },
         Repeat = { fg = ansi.white },
@@ -153,10 +152,14 @@ if vim.o.background == "dark" then
         Define = { fg = ansi.white },
         Macro = { fg = ansi.white },
         PreCondit = { fg = ansi.white },
-        Type = { fg = ansi.white },
-        StorageClass = { fg = ansi.white },
-        Structure = { fg = def_fg },
-        Typedef = { fg = def_fg },
+        -- Type = { fg = ansi.white },
+        -- StorageClass = { fg = ansi.white },
+        -- Structure = { fg = def_fg },
+        -- Typedef = { fg = def_fg },
+        Type = { fg = ansi.blue },
+        StorageClass = { fg = ansi.blue },
+        Structure = { fg = ansi.blue },
+        Typedef = { fg = ansi.blue },
 
         Special = { fg = ansi.yellow },
         -- TODO better color than diffchange, try reddish
