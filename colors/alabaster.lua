@@ -243,7 +243,7 @@ if vim.o.background == "dark" then
         ["@error"] = { bg = mistake.bg, fg = mistake.fg },
         ["@exception"] = { fg = ansi.white },
         ["@field"] = { fg = ansi.white },
-        ["@function"] = { fg = ansi.blue },
+        ["@function"] = { fg = ansi.red },
         ["@function.builtin"] = { fg = ansi.white },
         ["@function.macro"] = { fg = ansi.white },
         ["@keyword"] = { fg = ansi.blue },
