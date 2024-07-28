@@ -152,14 +152,10 @@ if vim.o.background == "dark" then
         Define = { fg = ansi.white },
         Macro = { fg = ansi.white },
         PreCondit = { fg = ansi.white },
-        -- Type = { fg = ansi.white },
-        -- StorageClass = { fg = ansi.white },
-        -- Structure = { fg = def_fg },
-        -- Typedef = { fg = def_fg },
-        Type = { fg = ansi.blue },
-        StorageClass = { fg = ansi.blue },
-        Structure = { fg = ansi.blue },
-        Typedef = { fg = ansi.blue },
+        Type = { fg = ansi.white },
+        StorageClass = { fg = ansi.white },
+        Structure = { fg = def_fg },
+        Typedef = { fg = def_fg },
 
         Special = { fg = ansi.yellow },
         -- TODO better color than diffchange, try reddish
