@@ -246,7 +246,7 @@ if vim.o.background == "dark" then
         ["@function"] = { fg = ansi.white },
         ["@function.builtin"] = { fg = ansi.white },
         ["@function.macro"] = { fg = ansi.white },
-        ["@keyword"] = { fg = ansi.cyan },
+        ["@keyword"] = { fg = ansi.white },
         ["@keyword.function"] = { fg = ansi.white },
         ["@label"] = { fg = ansi.white },
         ["@method"] = { fg = ansi.white },
